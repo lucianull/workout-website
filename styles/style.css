@@ -66,3 +66,23 @@ body {
 .footer-menu a:hover {
     text-decoration: underline;
 }
+@media (max-width: 990px) {
+    .footer {
+    height: 400px;
+    object-fit: contain;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .footer {
+        height: 150px;
+    }
+    .menu {
+        display: grid;
+        grid-template-areas: 
+        "h2menu"
+        "class-item . class-item . class-item . class-item . class-item";
+    }
+}
