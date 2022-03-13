@@ -1,0 +1,46 @@
+.workout-container{
+    background-color: white;
+}
+.reason-subtitle{
+    margin-left: 300px;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    font-size: 30px;
+}
+.reason-class-style-1 {
+    background-color: rgb(206, 232, 241);
+    color:rgb(70, 70, 70);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-right: 200px;
+}
+.reason-text {
+    margin-left: 320px;
+    font-size: 17px;
+}
+.reason-class-style-2 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.workout-title {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.image-style-2 {
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+    padding-left: 100px;
+    order: -1;
+}
+.image-style-1 {
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+    padding-left: 50px;
+}
