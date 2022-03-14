@@ -1,0 +1,58 @@
+.menu {
+    margin-bottom: 15px;
+}
+.exercises-container{
+    background-color: white;
+}
+.exercise-style {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+    border-bottom-color: rgb(184, 184, 184);
+    padding-bottom: 3%;
+}
+.image-style {
+    display: flex;
+    justify-content: center;
+}
+.image {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.exercise-text h3 {
+    text-transform: uppercase;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+.exercise-text {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size: 16.5px;
+}
+@media (max-width: 990px) {
+    .image {
+        width: 100%;
+        height: 100%;
+        padding-right: 5%;
+    }
+}
+@media (max-width: 768px) {
+    .exercise-style {
+        grid-template-columns: 1fr;
+    }
+    .exercise-text {
+        padding-right: 8%;
+        padding-right: 8%;
+    }
+    .image {
+        width: 90%;
+        height: 90%;
+        padding-right: 0%;
+    }
+}

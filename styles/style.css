@@ -68,10 +68,11 @@ body {
 }
 @media (max-width: 990px) {
     .footer {
-    height: 400px;
+    height: 200px;
     object-fit: contain;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 8%;
     }
     
 }
