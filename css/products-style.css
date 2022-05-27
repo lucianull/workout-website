@@ -1,0 +1,50 @@
+.products-div {
+    background-color: white;
+    padding-top: 5%;
+}
+.products-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+#name {
+    height: 25px;
+    margin-right: 3%;
+}
+#image {
+    height: 25px;
+    margin-right: 3%;
+}
+#addProduct {
+    height: 25px;
+    margin-right: 3%;
+    width: 100px;
+}
+#editProduct {
+    height: 25px;
+    width: 100px;
+}
+.advertisment-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.advertisment-div img {
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
+.advertisment-div h2 {
+    letter-spacing: 1px;
+    font-weight: 1000;
+    font-size: 25px;
+    padding-right: 10%;
+}
+.advertisment-div button {
+    margin-top: 10%;
+    width: 60px;
+    height: 30px;
+}

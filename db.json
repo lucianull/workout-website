@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "Impact Whey Protein",
+      "img": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10530943-1504726884876366.jpg",
+      "id": 3
+    },
+    {
+      "name": "Whey Gold Standard - Optimum Nutrition",
+      "img": "https://gymbeam.ro/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/g/o/gold_titulna.png",
+      "id": 4
+    },
+    {
+      "name": "Impact Whey Protein – Ciocolată rubinie",
+      "img": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13043418-1164903943596209.jpg",
+      "id": 5
+    },
+    {
+      "name": "Omega-3 Plus",
+      "img": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10615610-1844860398544480.jpg",
+      "id": 6
+    }
+  ]
+}
