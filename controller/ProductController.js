@@ -20,9 +20,9 @@ router.get("/products/:id", (req, res) => {
 router.get("/products", (req, res) => {    //  req = request; res = response
     const productsList = productService.getAllProducts();
     if (productsList!==undefined && productsList.length!==0) {
-        res.status('200').send(productsList);
+        res.status(200).send(productsList);
     } else {
-        res.status('204').send('No product found!');
+        res.status(204).send('No product found!');
     }
   });
   

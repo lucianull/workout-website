@@ -30,7 +30,7 @@ module.exports.updateProduct = (productID, productName, productImg) => {
     return foundProduct;
 }
 
- module.exports.removeProduct = (id) => {
+ module.exports.removeProduct = (productID) => {
      const productsList = productRepository.readJSONFile();
     
        for (let i=0; i<productsList.length; i++) 
